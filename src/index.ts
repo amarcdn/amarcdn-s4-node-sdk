@@ -47,7 +47,7 @@ export class AmarCDN implements IAmarCDN {
     if (!files) throw new Error('Bucket is required!');
 
     try {
-      let formData = new FormData();
+      const formData = new FormData();
       formData.append('bucket', bucket);
       formData.append('region', region);
       files.forEach((img) => formData.append('files', img));
