@@ -1,7 +1,7 @@
 {
-  "name": "amarcdn-s3-node-sdk",
-  "version": "1.0.0",
-  "description": "Best cloud service provider in south asia",
+  "name": "amarcdn-s4-node-sdk",
+  "version": "1.0.1",
+  "description": "Best cloud service provider",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -23,6 +23,7 @@
   "keywords": [
     "amarcdn",
     "s3",
+    "s4",
     "nodejs",
     "sdk"
   ],

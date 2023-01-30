@@ -46,7 +46,7 @@ interface IBucket {
 interface IAmarCDN {
   upload: ({ apiKey, apiSecretKey, region, bucket, isPrivate, folder }: IUpload) => void;
   createBucket: ({ apiKey, apiSecretKey, region, title, isPrivate }: IBucket) => void;
-  getBucketList: ({ apiKey, apiSecretKey, region, title, isPrivate }: any) => void;
+  getBucketList: ({ apiKey, apiSecretKey, region }: any) => void;
   deleteBucket: ({ apiKey, apiSecretKey, region, bucketTitle, bucketId }: any) => void;
 }
 export class AmarCDN implements IAmarCDN {
