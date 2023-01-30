@@ -1,6 +1,6 @@
 {
   "name": "amarcdn-s4-node-sdk",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Best cloud service provider",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
