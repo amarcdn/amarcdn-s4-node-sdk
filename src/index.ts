@@ -213,5 +213,3 @@ export class AmarCDN implements IAmarCDN {
     }
   }
 }
-
-const amarCDn = new AmarCDN();
