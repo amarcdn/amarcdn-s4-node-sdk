@@ -14,7 +14,8 @@
      "preversion": "npm run lint",
      "version": "npm run format && git add -A src",
      "postversion": "git push && git push --tags",
-     "start":"npm start"
+     "start":"npm start",
+     "hello-world": "echo \"Hello World\""
   },
   "repository": {
     "type": "git",
